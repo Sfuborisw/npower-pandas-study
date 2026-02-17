@@ -13,10 +13,17 @@ To run these scripts on your local machine, follow these steps:
    source .venv/bin/activate
 
 ## 🛠️ Current Progress
-- [x] **Phase 1: Foundations**
-    - [x] Series and DataFrames basics
-    - [x] Basic filtering (SQL-like logic)
-    - [x] Simple statistics (`describe()`, `mean()`)
+Current Progress
+[x] Phase 1: Foundations
+    [x] Series and DataFrames basics
+    [x] Basic filtering (SQL-like logic)
+    [x] Simple statistics (describe(), mean())
+
+[x] Phase 2: Data Cleaning Basics
+    [x] String manipulation (str.strip())
+    [x] Type conversion (pd.to_numeric())
+    [x] Handling missing values (dropna())
+
 
 ## 💡 Quick Reminders
 - Use `df[df['column'] == 'value']` to filter data.
